@@ -7,7 +7,7 @@ public class LatPekan2 {
         hewan.add("Kambing");
         hewan.add("Unta");
         hewan.add("Domba");
-        System.out.println("Nama Hewan Yang DiTambahakan : ");
+        System.out.println("Nama hewan yang ditambahkan : ");
         System.out.println(hewan);
 
         ArrayList<String> deleteHewan = new ArrayList<>();
@@ -23,7 +23,7 @@ public class LatPekan2 {
 
         System.out.println("\nHewan yang dihapus : ");
         System.out.println(deletedData);
-        System.out.println("\nOutput Hewan Setelah DiHapus : ");
+        System.out.println("\nOutput Hewan : ");
         System.out.println(hewan);
     }
 }
