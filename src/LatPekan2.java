@@ -16,9 +16,9 @@ public class LatPekan2 {
         deleteHewan.add("Unta");
         ArrayList<String> deletedData = new ArrayList<>();
 
-        for (String warna : deleteHewan) {
-            hewan.removeIf(h -> h.equals(warna));
-            deletedData.add(warna);
+        for (String abc : deleteHewan) {
+            hewan.removeIf(h -> h.equals(abc));
+            deletedData.add(abc);
         }
 
         System.out.println("\nHewan yang dihapus : ");
